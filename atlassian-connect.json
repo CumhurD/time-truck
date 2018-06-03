@@ -1,0 +1,26 @@
+{
+    "name": "Time Truck",
+    "description": "Time Tracker App",
+    "key": "com.algus.timetruck",
+    "baseUrl": "https://6b71a89b.ngrok.io",
+    "vendor": {
+        "name": "Cumhur Duzlu",
+        "url": "http://cumhurduzlu.com"
+    },
+    "authentication": {
+        "type": "none"
+    },
+    "apiVersion": 1,
+    "modules": {
+        "generalPages": [
+            {
+                "url": "/helloworld.html",
+                "key": "hello-world",
+                "location": "system.top.navigation.bar",
+                "name": {
+                    "value": "Greeting"
+                }
+            }
+        ]
+    }
+}

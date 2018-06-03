@@ -1,0 +1,33 @@
+{
+  "name": "time-truck",
+  "version": "1.0.0",
+  "description": "Time report based on Jira project/epic/task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CumhurD/time-truck.git"
+  },
+  "keywords": [
+    "time",
+    "track",
+    "jira"
+  ],
+  "author": "Cumhur Düzlü",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CumhurD/time-truck/issues"
+  },
+  "homepage": "https://github.com/CumhurD/time-truck#readme",
+  "devDependencies": {
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  },
+  "dependencies": {
+    "require": "^2.4.20"
+  }
+}
